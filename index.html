@@ -43,10 +43,6 @@
             <div class="form">
                 <form class="form-group">
                     <div class="col-md-5">
-                        <label for="inputName4" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="col-md-5">
                         <label for="inputName4" class="form-label">Birth Year</label>
                         <input type="text" class="form-control" id="year">
                     </div>
@@ -54,18 +50,23 @@
                         <label for="inputName4" class="form-label">Birth Month</label>
                         <input type="text" class="form-control" id="month">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 mb-3">
                         <label for="inputName4" class="form-label">Birth Day</label>
                         <input type="text" class="form-control" id="day">
                     </div>
-                    <div class="col-md-5">
-                        <label for="inputName4" class="form-label">Gender</label>
-                        <input type="text" class="form-control" id="gender">
-                    </div>
-               
+                    <select class="custom-select custom-select-md-5 mb-2" name="gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <!-- <select class="custom-select">
+                        <option selected>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        </select>
+                    -->
                    
                     <div class="col-12 second-button">
-                        <input class="btn btn-primary" type="button" value="submit" onclick="huh()">
+                        <input class="btn btn-primary" type="button" value="submit" onclick="checkName()">
                         <!-- <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="test(); return false"/> -->
                     </div>
 

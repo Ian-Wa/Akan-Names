@@ -41,6 +41,10 @@ header{
     margin-left: 40%;
 }
 
+.col{
+    margin-top: 1rem;
+}
+
 .second-button{
     margin-top: 1rem;
 }
