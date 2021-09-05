@@ -10,7 +10,8 @@ header{
 
 .home{
     height: 100vh;
-    margin-top: 7rem;
+    margin-top: 5rem;
+    background-color: aliceblue;
 }
 
 .title{
