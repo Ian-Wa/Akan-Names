@@ -15,8 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
+    <script  type="text/javascript" src="assets/main.js"></script>
 </head>
 <body>
+    
     <div class="container">
         <section class="home">
             <header>
@@ -30,7 +32,7 @@
                     the day of the week they were born and then depending on their gender outputs their Akan Name.
                 </p>
             </div>
-            <div class="col-md-12 text-center first">
+            <div class="col-md-12 text-center first-button">
                 <a class="btn btn-primary btn-lg" href="#details" role="button">Check your Akan Name</a>
             </div> 
             
@@ -40,39 +42,43 @@
             <h2 class="sub-title">Enter your details.</h2>
             <div class="form">
                 <form class="form-group">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <label for="inputName4" class="form-label">Name</label>
                         <input type="text" class="form-control" id="inputName4">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <label for="inputName4" class="form-label">Birth Year</label>
                         <input type="text" class="form-control" id="inputName4">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <label for="inputName4" class="form-label">Birth Month</label>
                         <input type="text" class="form-control" id="inputName4">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <label for="inputName4" class="form-label">Birth Day</label>
+                        <input type="text" class="form-control" id="inputName4">
+                    </div>
+                    <div class="col-md-5">
+                        <label for="inputName4" class="form-label">Gender</label>
                         <input type="text" class="form-control" id="inputName4">
                     </div>
                
                    
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="col-12 second-button">
+                        <input class="btn btn-primary" type="button" value="submit" onclick="huh()">
+                        <!-- <input type="submit" value="Submit" id="submitButton" class="btn btn-primary" onclick="test(); return false"/> -->
                     </div>
+
                 </form>
             </div>
        </section>
     </div>
     <footer class="footer">
         <p class="footer_title">Ian</p>
-        <div class="footer__social">
-            <a href="#" class="footer_icon"><i class='bx bxl-facebook' ></i></a>
-            <a href="#" class="footer_icon"><i class='bx bxl-instagram' ></i></a>
-            <a href="#" class="footer_icon"><i class='bx bxl-twitter' ></i></a>
-        </div>
+        
         <p>&#169; 2021 copyright all rights reserved</p>
     </footer>
+
+   
 </body>
 </html>
