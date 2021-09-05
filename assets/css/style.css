@@ -12,6 +12,7 @@ header{
     height: 100vh;
     margin-top: 5rem;
     background-color: aliceblue;
+    border-radius: 3%;
 }
 
 .title{
@@ -39,7 +40,7 @@ header{
 
 .form{
     margin-top: 3rem;
-    margin-left: 40%;
+    margin-left: 39%;
 }
 
 .col{
