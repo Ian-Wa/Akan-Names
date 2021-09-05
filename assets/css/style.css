@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 5rem;
+}
+
+
+
+.home{
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
