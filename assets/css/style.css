@@ -10,9 +10,22 @@ header{
 
 .home{
     height: 100vh;
+    margin-top: 7rem;
 }
 
 .title{
     text-align: center;
     font-family: 'Lobster', cursive;
+    font-size: 5rem;
+}
+
+.information{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.first{
+    margin-top: 1.5rem;
 }
